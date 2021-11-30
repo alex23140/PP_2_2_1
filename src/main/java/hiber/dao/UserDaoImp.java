@@ -39,7 +39,6 @@ public class UserDaoImp implements UserDao {
         Car car = query.uniqueResult();
         return car.getUser();
 
-        //setAnnotatedClasses(User.class, SomeOtherClass.class)
     }
 
 }
